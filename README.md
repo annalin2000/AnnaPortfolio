@@ -1,4 +1,4 @@
-# 🌐 Anna Lin | Portfolio Website
+## 🌐 Anna Lin | Portfolio Website
 
 A personal portfolio website showcasing my background, skills, and web development projects.  
 Built with HTML5, CSS, and a focus on accessibility, responsiveness, and clean design.
@@ -34,4 +34,4 @@ anna-portfolio/
 ├── index.html # Main portfolio page
 └── README.md # Project documentation
 
-# Link to portfolio: 
+### Link to portfolio: 
