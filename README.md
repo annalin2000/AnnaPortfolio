@@ -5,7 +5,7 @@ Built with HTML5, CSS, and a focus on accessibility, responsiveness, and clean d
 
 ---
 
-# ✨ Features
+## ✨ Features
 
 - Responsive, mobile friendly layout  
 - Smooth scroll navigation  
@@ -34,4 +34,4 @@ anna-portfolio/
 ├── index.html # Main portfolio page
 └── README.md # Project documentation
 
-Link to portfolio: 
+# Link to portfolio: 
