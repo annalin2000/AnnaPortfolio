@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Anna Lin — aspiring software engineer. Projects, skills, and contact. Pharmacist turned developer building clean, user-friendly web apps." />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="description" content="Anna's portfolio"/>
   <title>Anna Lin | Portfolio</title>
   <link rel="stylesheet" href="assets/style.css">
 </head>
@@ -21,10 +21,12 @@
   </header>
 
   <main id="main">
-    <section id="home" aria-labelledby="home-title">
+    <section id="home" aria-labelledby="intro-title">
       <div class="box">
-        <h1 id="home-title">Hi, I am Anna — Aspiring Software Engineer</h1>
-        <p class="tag">Pharmacist turned developer, focused on practical, user-friendly solutions and clean, scalable code.</p>
+        <h1 id="intro-title">Hi, I am Anna</h1>
+        <p class="tag">
+          I am a pharmacist turned software engineer passionate about building efficient, user-centered full stack applications
+        </p>
         <div class="btns">
           <a class="btn" href="#projects">View Projects</a>
         </div>
@@ -35,17 +37,20 @@
       <div class="box">
         <div class="grid-2">
           <div class="pic">
-            <img src="image/anna.png" alt="Portrait of Anna Lin" loading="lazy">
+            <img src="image/anna.png" alt="Portrait of Anna Lin" loading="lazy" width="600" height="600" decoding="async">
           </div>
           <div class="text">
             <h2 id="about-title">About</h2>
-            <p>I am Anna, a software engineer in training with a background in pharmacy. I enjoy applying tech to solve real problems and working in agile teams to ship responsive web apps.</p>
-
+            <p>
+              I am Anna, a software engineer in training with a background in pharmacy. 
+              I enjoy using technology to solve real problems and working in agile teams 
+              to build responsive web applications.
+            </p>
             <h3>Skills</h3>
             <ul class="skills">
-              <li>HTML &amp; CSS (Flexbox, Grid)</li>
+              <li>HTML &amp; CSS</li>
               <li>JavaScript</li>
-              <li>Accessibility &amp; Responsive Design</li>
+              <li>Python</li>
               <li>Git &amp; GitHub</li>
             </ul>
           </div>
@@ -57,47 +62,48 @@
       <div class="box">
         <h2 id="projects-title">Projects</h2>
         <div class="projects-grid">
+
           <article class="card">
             <figure>
-              <img src="image/investment.png" alt="Wealth management dashboard with charts" loading="lazy">
-              <figcaption class="sr-only">Responsive dashboard with charts and account summaries.</figcaption>
+              <img src="image/investment.png" alt="Wealth management dashboard with charts" loading="lazy" width="800" height="600" decoding="async">
+              <figcaption class="visually-hidden">Wealth Management dashboard preview</figcaption>
             </figure>
             <div class="body">
               <h3>Wealth Management</h3>
-              <p>Responsive dashboard with charts and account summaries.</p>
+              <p>Responsive dashboard with charts and account summaries</p>
             </div>
           </article>
 
           <article class="card">
             <figure>
-              <img src="image/patient.png" alt="Patient management system interface" loading="lazy">
-              <figcaption class="sr-only">Simple CRUD layout for appointments and patient records.</figcaption>
+              <img src="image/patient.png" alt="Patient management system interface" loading="lazy" width="800" height="600" decoding="async">
+              <figcaption class="visually-hidden">Patient management app interface</figcaption>
             </figure>
             <div class="body">
               <h3>Patient Management</h3>
-              <p>Simple CRUD layout for appointments and patient records.</p>
+              <p>Simple interface for managing patient records and visits</p>
             </div>
           </article>
 
           <article class="card">
             <figure>
-              <img src="image/todo.png" alt="Task tracking app with filters" loading="lazy">
-              <figcaption class="sr-only">To-do app with filters and local storage persistence.</figcaption>
+              <img src="image/todo.png" alt="Task tracking app with filters" loading="lazy" width="800" height="600" decoding="async">
+              <figcaption class="visually-hidden">Task tracker app preview</figcaption>
             </figure>
             <div class="body">
               <h3>Task Tracker</h3>
-              <p>To-do app with filters and local storage persistence.</p>
+              <p>Manage daily tasks with filters and saved data</p>
             </div>
           </article>
 
           <article class="card">
             <figure>
-              <img src="image/weather.png" alt="Weather app preview with location search" loading="lazy">
-              <figcaption class="sr-only">Weather lookup with location search and clean UI.</figcaption>
+              <img src="image/weather.png" alt="Weather app preview with location search" loading="lazy" width="800" height="600" decoding="async">
+              <figcaption class="visually-hidden">Weather app preview</figcaption>
             </figure>
             <div class="body">
               <h3>Weather Now</h3>
-              <p>Weather lookup with location search and clean UI.</p>
+              <p>Real time weather app with location search</p>
             </div>
           </article>
         </div>
@@ -107,40 +113,41 @@
     <section id="contact" aria-labelledby="contact-title">
       <div class="box">
         <h2 id="contact-title">Contact</h2>
-        <address class="contact-meta">
-          <p>Leeds, UK</p>
-          <p>
-            <a class="btn outline" href="mailto:annalin1510@outlook.com">annalin1510@outlook.com</a>
-            <a class="btn outline" href="tel:+447448422698" rel="nofollow">+44 7448 422698</a>
-          </p>
+        <address class="contact-links" aria-label="Direct contact">
+          <a href="mailto:annalin1510@outlook.com">Email</a>
+          <a href="tel:+447448422698">Call</a>
         </address>
 
-        <form id="form" action="#" method="post" novalidate>
+        <form id="form" action="#" method="post">
           <div class="row">
             <label for="name">Name</label>
-            <input autocomplete="name" type="text" id="name" name="name" placeholder="Anna" required>
+            <input type="text" id="name" name="name" autocomplete="name" required>
           </div>
 
           <div class="row">
             <label for="email">Email</label>
-            <input autocomplete="email" type="email" id="email" name="email" placeholder="you@example.com" required>
+            <input type="email" id="email" name="email" autocomplete="email" autocapitalize="off" spellcheck="false" required>
           </div>
 
           <div class="row">
             <label for="message">Message</label>
-            <textarea id="message" name="message" rows="5" placeholder="Write your message..." required></textarea>
+            <textarea id="message" name="message" rows="5" minlength="10" autocomplete="on" required></textarea>
           </div>
 
           <button class="btn" type="submit">Send</button>
+          <p class="form-hint" aria-live="polite"></p>
         </form>
       </div>
     </section>
   </main>
 
-  <footer id="footer" role="contentinfo">
+  <footer id="footer">
     <div class="box footer-flex">
       <p>&copy; <span id="year"></span> Anna Lin</p>
-      <a class="btn outline top-link" href="#header" aria-label="Back to top">Top ↑</a>
+      <p>
+        <a href="mailto:annalin1510@outlook.com">Email</a>  
+        <a href="tel:+447448422698">Call</a>
+      </p>
     </div>
   </footer>
 
