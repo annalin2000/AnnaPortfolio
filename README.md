@@ -34,4 +34,6 @@ anna-portfolio/
 ├── index.html # Main portfolio page
 └── README.md # Project documentation
 
-### Link to portfolio: 
+---
+
+Link to portfolio: 
