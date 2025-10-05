@@ -23,15 +23,15 @@ Built with HTML5, CSS, and a focus on accessibility, responsiveness, and clean d
 ```text
 anna-portfolio/
 ├── assets/
-│   └── style.css          # Main stylesheet
+│   └── style.css          
 ├── image/
-│   ├── anna.png           # Portrait image
-│   ├── investment.png     # Project screenshots
+│   ├── anna.png           
+│   ├── investment.png
 │   ├── patient.png
 │   ├── todo.png
 │   └── weather.png
-├── index.html             # Main portfolio page
-└── README.md              # Project documentation
+├── index.html             
+└── README.md              
 ```
 
 
