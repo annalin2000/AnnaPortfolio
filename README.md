@@ -19,20 +19,21 @@ Built with HTML5, CSS, and a focus on accessibility, responsiveness, and clean d
 ---
 
 ## 🧱 Project Structure
+
 anna-portfolio/
 │
 ├── assets/
-│ └── style.css # Main stylesheet
+│   └── style.css          # Main stylesheet
 │
 ├── image/
-│ ├── anna.png # Portrait image
-│ ├── investment.png # Project screenshots
-│ ├── patient.png
-│ ├── todo.png
-│ └── weather.png
+│   ├── anna.png           # Portrait image
+│   ├── investment.png     # Project screenshots
+│   ├── patient.png
+│   ├── todo.png
+│   └── weather.png
 │
-├── index.html # Main portfolio page
-└── README.md # Project documentation
+├── index.html             # Main portfolio page
+└── README.md              # Project documentation
 
 ---
 
