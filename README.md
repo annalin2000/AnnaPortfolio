@@ -20,7 +20,7 @@ Built with HTML5, CSS, and a focus on accessibility, responsiveness, and clean d
 
 ## 🧱 Project Structure
 
-```text
+```
 anna-portfolio/
 ├── assets/
 │   └── style.css          
