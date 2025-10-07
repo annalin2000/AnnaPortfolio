@@ -30,8 +30,8 @@ anna-portfolio/
 │   ├── patient.png
 │   ├── todo.png
 │   └── weather.png
-├── index.html             
-└── README.md              
+└──  index.html             
+           
 ```
 
 
