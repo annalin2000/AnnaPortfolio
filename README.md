@@ -37,4 +37,6 @@ anna-portfolio/
 
 ---
 
-Link to portfolio: https://annalin2000.github.io/AnnaPortfolio/
+## 🔗 Live Demo
+
+You can see the site live at: https://annalin2000.github.io/AnnaPortfolio/
