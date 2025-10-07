@@ -13,7 +13,7 @@ Built with HTML5, CSS, and a focus on accessibility, responsiveness, and clean d
 - Accessible “Skip to main content” link  
 - Semantic HTML5 structure  
 - Lazy-loaded images for performance  
-- Contact form (client-side only)  
+- Contact form (client side only)  
 - Clean modern UI using pure CSS (no frameworks)
 
 ---
