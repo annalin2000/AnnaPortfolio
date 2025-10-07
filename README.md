@@ -37,4 +37,4 @@ anna-portfolio/
 
 ---
 
-Link to portfolio: https://annalin2000.github.io/my-first-portfolio-/ 
+Link to portfolio: https://annalin2000.github.io/AnnaPortfolio/
